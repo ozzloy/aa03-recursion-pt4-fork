@@ -1,14 +1,14 @@
 /***********************************************************************
  * BONUS PROBLEM
 ************************************************************************
-Write a recursive function `makeTree(categories, parent)` that takes an array of
-categories objects, each of which have an id property, and a parent property and
-returns a nested tree of those objects using the parent properties to construct
-the tree.
+Write a recursive function `makeTree(categories, parent)` that takes an
+array of categories objects, each of which have an id property, and a
+parent property and returns a nested tree of those objects using the
+parent properties to construct the tree.
 
-A parent value of null means you are at the bottom of the tree and the category
-has no parent, so the default value parent is be null if no parent is
-provided.
+A parent value of null means you are at the bottom of the tree and the
+category has no parent, so the default value parent is be null if no
+parent is provided.
 
 Example 1:
 
