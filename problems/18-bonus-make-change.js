@@ -62,7 +62,7 @@ only calculates and compares all of the different combinations.
 ***********************************************************************/
 
 function makeBetterChange(target, coins = [25, 10, 5, 1]) {
-  // Your code here 
+  // Your code here
 }
 
 
