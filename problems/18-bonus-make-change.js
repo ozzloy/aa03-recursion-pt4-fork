@@ -68,7 +68,7 @@ function makeBetterChange(target, coins = [25, 10, 5, 1]) {
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS LINE*****************/
 try {
-  module.exports = makeBetterChange
+  module.exports = makeBetterChange;
 } catch (e) {
   module.exports = null;
 }
