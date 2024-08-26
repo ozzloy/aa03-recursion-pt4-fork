@@ -70,7 +70,11 @@ const makeTree = (categories, parent) => {
 };
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS LINE*****************/
-module.exports = makeTree;
+try {
+  module.exports = makeTree;
+} catch (e) {
+  module.exports = null;
+}
 
 // This problem was inspired by a Fun Fun Function video:
 // https://www.youtube.com/watch?v=k7-N8R0-KY4
